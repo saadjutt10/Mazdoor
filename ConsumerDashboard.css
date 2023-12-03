@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+#cover-photo {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+    position: relative;
+}
+
+#profile-pic {
+    width: 120px; /* Adjust the size as needed */
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 3px solid #fff; /* Add a border to the profile picture */
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.9); /* Add a subtle shadow */
+}
+
+.profile-info {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top: -50px;
+}
+
+.overview {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    position: relative;
+    top: -50px;
+}
+
+.overview div {
+    text-align: center;
+    flex: 1;
+}
+
+.overview div:not(:last-child) {
+    border-right: 1px solid #ccc;
+}
+
+.btn-message,
+.btn-follow {
+    width: 100%;
+    max-width: 150px;
+    margin: 10px;
+    position: relative;
+    top: -50px;
+}
