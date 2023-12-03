@@ -1,4 +1,4 @@
-# Mazdoor: Empowering Laborers to Secure Work Opportunities
+# Mazdoor: Empowering Local Workers to Secure Work Opportunities
 
 ## Table of Contents
 - [Introduction](#introduction)
